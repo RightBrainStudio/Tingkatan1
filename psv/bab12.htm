@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subjek Tingkatan1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="/image/x-icon" href="../logo/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../asset.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <h2>Subject</h2>
+  <a href="bab1.htm">Tajuk 1: Perkembangan Seni Visual Di Malaysia</a>
+  <a href="bab2.htm">Tajuk 2: Garisan</a>
+  <a href="bab3.htm">Tajuk 3: Rupa</a>
+  <a href="bab4.htm">Tajuk 4: Bentuk</a>
+  <a href="bab5.htm">Tajuk 5: Jalinan</a>
+  <a href="bab6.htm">Tajuk 6: Ruang</a>
+  <a href="bab7.htm">Tajuk 7: Warna</a>
+  <a href="bab8.htm">Tajuk 8: Harmoni</a>
+  <a href="bab9.htm">Tajuk 9: Kontra</a>
+  <a href="bab10.htm">Tajuk 10: Penegasan</a>
+  <a href="bab11.htm">Tajuk 11: Kepelbagaian</a>
+  <a href="bab12.htm" style="background-color: orange">Tajuk 12: Imbangan</a>
+  <a href="bab13.htm">Tajuk 13: Kesatuan</a>
+  <a href="bab14.htm">Tajuk 14: Irama dan Pergerakan</a>
+  <a href="bab15.htm">Tajuk 15: Tajuk dan Mesej</a>
+  <a href="bab16.htm">Tajuk 16: Motif, Idea dan Konsep</a>
+  <a href="bab17.htm">Tajuk 17: Designomic</a>
+</div>
+
+<div class="logo">
+  <img src="../logo/logo.png" alt="Logo" height="70px" style="position: fixed;top: 0%">
+</div>
+
+<div class="navbar">
+  <span style="float: left;font-size: 16px;color: black;text-align: center;padding: 14px 16px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  <a href="../idx.htm">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Subjek teras 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../bm/bab1.htm">Bahasa Melayu</a>
+      <a href="../bi/bab1.htm">Bahasa Inggeris</a>
+      <a href="../mt/bab1.htm">Matematik</a>
+      <a href="../sn/bab1.htm">Sains</a>
+      <a href="../sj/bab1.htm">Sejarah</a>
+      <a href="../pm/bab1.htm">Pendidikan Moral</a>
+    </div>
+  </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Subjek wajib 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../pjpk/bab1.htm">Pendidikan Jasmani dan Pendidikan Kesihatan</a>
+        <a href="../geo/bab1.htm">Geografi</a>
+        <a href="../ask/bab1.htm">Asas sains computer</a>
+        <a href="../psv/bab1.htm" style="background-color: orange">Pendidikan Seni Visual</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Subjek tambahan
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="../bc/bab1.htm">Bahasa Cina</a>
+        <a href="../bt/bab1.htm">Bahasa Tamil</a>
+      </div>
+    </div> 
+</div>
+<div id="main">
+
+<!-- Edit everyting starting from here -->
+
+<h2>Title</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam est sem, et fringilla diam congue et. Phasellus nulla risus, consectetur at posuere sed, sagittis ut ipsum. Nunc sit amet fermentum lorem, vel porttitor dui. Nam mollis cursus lacus in finibus. Cras non nulla sollicitudin, vehicula dolor eget, sollicitudin nulla. Integer vel condimentum arcu. Phasellus pretium sem ac tellus lobortis imperdiet. Aliquam luctus, nulla id laoreet malesuada, odio turpis dictum erat, at convallis augue lacus vel sapien. Curabitur blandit ligula sed mauris suscipit, sed consequat nibh scelerisque. Maecenas facilisis ac elit non iaculis. Proin id nisl sodales, laoreet nibh quis, eleifend quam.
+</p>
+
+<!-- to here -->
+
+  <a href="bab11.htm" class="previous" style ="text-decorationnone;display:inline-block;padding:8px 16px;">&laquo; Previous</a>
+  <a href="bab13.htm" class="next"  style ="text-decorationnone;display:inline-block;padding:8px 16px;">Next &raquo;</a>
+
+<div class="footer">
+  <p>2023, created by Liew Jia Kang, Avinaash and Uthaya</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+</body>
+</html>
